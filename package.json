@@ -1,0 +1,32 @@
+{
+  "name": "node-api-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdessalam98/node-api-graphql.git"
+  },
+  "keywords": [],
+  "author": "Abdessalam BENHARIRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdessalam98/node-api-graphql/issues"
+  },
+  "homepage": "https://github.com/Abdessalam98/node-api-graphql#readme"
+}
